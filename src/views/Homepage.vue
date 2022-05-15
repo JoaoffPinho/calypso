@@ -60,7 +60,7 @@
           <template #img>
             <img
               class="d-block img-fluid w-100"
-              src="@/assets/images/007slide.jpg"
+              src="@/assets/images/007slide.webp"
             />
           </template>
           <h1 style="font-family: Rubik; font-size: 22px">Quizz James Bond</h1>
@@ -73,7 +73,7 @@
           <template #img>
             <img
               class="d-block img-fluid w-100"
-              src="@/assets/images/notimetodieslide.jpg"
+              src="@/assets/images/notimetodieslide.webp"
             />
           </template>
           <h1 style="font-family: Rubik; font-size: 22px">Filme em Destaque</h1>

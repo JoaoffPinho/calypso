@@ -102,7 +102,7 @@ export default new Vuex.Store({
     games: localStorage.games ?
       JSON.parse(localStorage.games) : [{
           title: "007 Quizz",
-          image: require('@/assets/images/007first.png'),
+          image: require('@/assets/images/007first.webp'),
           lancamento: "2021",
           director: "Cary Joji Fukunaga",
           writers: "Neal Purvis(screenplay by)Robert Wade(screenplay by)Cary Joji Fukunaga(screenplay by)",
@@ -110,7 +110,7 @@ export default new Vuex.Store({
         },
         {
           title: "Outer Banks",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -119,7 +119,7 @@ export default new Vuex.Store({
         },
         {
           title: "Peaky Blinders",
-          image: require('@/assets/images/dune.jpg'),
+          image: require('@/assets/images/dune.webp'),
           lancamento: "test01",
           sinopse: "test11",
           director: "test21",
@@ -128,7 +128,7 @@ export default new Vuex.Store({
         },
         {
           title: "Dark",
-          image: require('@/assets/images/redNotice.jpg'),
+          image: require('@/assets/images/redNotice.webp'),
           lancamento: "test02",
           sinopse: "test12",
           director: "test22",
@@ -137,7 +137,7 @@ export default new Vuex.Store({
         },
         {
           title: "You",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -146,7 +146,7 @@ export default new Vuex.Store({
         },
         {
           title: "La Casa de Papel",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -155,7 +155,7 @@ export default new Vuex.Store({
         },
         {
           title: "Maid",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -164,7 +164,7 @@ export default new Vuex.Store({
         },
         {
           title: "Arcane",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -175,7 +175,7 @@ export default new Vuex.Store({
     filmes: localStorage.filmes ?
       JSON.parse(localStorage.filmes) : [{
           title: "Sem tempo para morrer",
-          image: require('@/assets/images/notimetodie.jpg'),
+          image: require('@/assets/images/notimetodie.webp'),
           lancamento: "2021",
           sinopse: "Em 007 - Sem Tempo Para Morrer, depois de sair do serviço ativo da MI6, James Bond (Daniel Craig) vive tranquilamente na Jamaica, mas como nem tudo dura pouco, a vida do espião 007 é agitada mais uma vez. Felix Leiter (Jeffrey Wright) é um velho amigo da CIA que procura o inglês para um pequeno favor de ajudá-lo em uma missão secreta. O que era pra ser apenas uma missão de resgate de um grupo de cientistas acaba sendo mais traiçoeira do que o esperado, levando o agente inglês 007 ao misterioso vilão, Safin (Rami Malek), que utiliza de novas armas de tecnologia avançada e extremamente perigosa.",
           director: "Cary Joji Fukunaga",
@@ -184,7 +184,7 @@ export default new Vuex.Store({
         },
         {
           title: "Infiltrado",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -193,7 +193,7 @@ export default new Vuex.Store({
         },
         {
           title: "Dune",
-          image: require('@/assets/images/dune.jpg'),
+          image: require('@/assets/images/dune.webp'),
           lancamento: "test01",
           sinopse: "test11",
           director: "test21",
@@ -202,7 +202,7 @@ export default new Vuex.Store({
         },
         {
           title: "Aviso Vermelho",
-          image: require('@/assets/images/redNotice.jpg'),
+          image: require('@/assets/images/redNotice.webp'),
           lancamento: "test02",
           sinopse: "test12",
           director: "test22",
@@ -211,7 +211,7 @@ export default new Vuex.Store({
         },
         {
           title: "Infiltrado",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -220,7 +220,7 @@ export default new Vuex.Store({
         },
         {
           title: "Tick Tick...BOOM",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -229,7 +229,7 @@ export default new Vuex.Store({
         },
         {
           title: "The Tomorrow War",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -238,7 +238,7 @@ export default new Vuex.Store({
         },
         {
           title: "365 DNI",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -249,7 +249,7 @@ export default new Vuex.Store({
     filmeshomepage: localStorage.filmeshomepage ?
       JSON.parse(localStorage.filmeshomepage) : [{
           title: "Sem tempo para morrer",
-          image: require('@/assets/images/notimetodie.jpg'),
+          image: require('@/assets/images/notimetodie.webp'),
           lancamento: "2021",
           sinopse: "Em 007 - Sem Tempo Para Morrer, depois de sair do serviço ativo da MI6, James Bond (Daniel Craig) vive tranquilamente na Jamaica, mas como nem tudo dura pouco, a vida do espião 007 é agitada mais uma vez. Felix Leiter (Jeffrey Wright) é um velho amigo da CIA que procura o inglês para um pequeno favor de ajudá-lo em uma missão secreta. O que era pra ser apenas uma missão de resgate de um grupo de cientistas acaba sendo mais traiçoeira do que o esperado, levando o agente inglês 007 ao misterioso vilão, Safin (Rami Malek), que utiliza de novas armas de tecnologia avançada e extremamente perigosa.",
           director: "Cary Joji Fukunaga",
@@ -258,7 +258,7 @@ export default new Vuex.Store({
         },
         {
           title: "Infiltrado",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -267,7 +267,7 @@ export default new Vuex.Store({
         },
         {
           title: "Dune",
-          image: require('@/assets/images/dune.jpg'),
+          image: require('@/assets/images/dune.webp'),
           lancamento: "test01",
           sinopse: "test11",
           director: "test21",
@@ -278,7 +278,7 @@ export default new Vuex.Store({
     series: localStorage.series ?
       JSON.parse(localStorage.series) : [{
           title: "The Wheel of Time",
-          image: require('@/assets/images/notimetodie.jpg'),
+          image: require('@/assets/images/notimetodie.webp'),
           lancamento: "2021",
           sinopse: "Em 007 - Sem Tempo Para Morrer, depois de sair do serviço ativo da MI6, James Bond (Daniel Craig) vive tranquilamente na Jamaica, mas como nem tudo dura pouco, a vida do espião 007 é agitada mais uma vez. Felix Leiter (Jeffrey Wright) é um velho amigo da CIA que procura o inglês para um pequeno favor de ajudá-lo em uma missão secreta. O que era pra ser apenas uma missão de resgate de um grupo de cientistas acaba sendo mais traiçoeira do que o esperado, levando o agente inglês 007 ao misterioso vilão, Safin (Rami Malek), que utiliza de novas armas de tecnologia avançada e extremamente perigosa.",
           director: "Cary Joji Fukunaga",
@@ -287,7 +287,7 @@ export default new Vuex.Store({
         },
         {
           title: "Outer Banks",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -296,7 +296,7 @@ export default new Vuex.Store({
         },
         {
           title: "Peaky Blinders",
-          image: require('@/assets/images/dune.jpg'),
+          image: require('@/assets/images/dune.webp'),
           lancamento: "test01",
           sinopse: "test11",
           director: "test21",
@@ -305,7 +305,7 @@ export default new Vuex.Store({
         },
         {
           title: "Dark",
-          image: require('@/assets/images/redNotice.jpg'),
+          image: require('@/assets/images/redNotice.webp'),
           lancamento: "test02",
           sinopse: "test12",
           director: "test22",
@@ -314,7 +314,7 @@ export default new Vuex.Store({
         },
         {
           title: "You",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -323,7 +323,7 @@ export default new Vuex.Store({
         },
         {
           title: "La Casa de Papel",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -332,7 +332,7 @@ export default new Vuex.Store({
         },
         {
           title: "Maid",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
@@ -341,7 +341,7 @@ export default new Vuex.Store({
         },
         {
           title: "Arcane",
-          image: require('@/assets/images/infiltrado.jpg'),
+          image: require('@/assets/images/infiltrado.webp'),
           lancamento: "test0",
           sinopse: "test1",
           director: "test2",
