@@ -5,17 +5,17 @@ const quizzController = require("../controllers/quizzes.controller");
 let router = express.Router();
 
  
-router.route('/')
-    .get(quizzController.getQuizzes)
+// router.route('/')
+//     .get(quizzController.getQuizzes)
 
-router.route('/:quizzName')
-    .get(quizzController.getSpecificQuizzes)
+// router.route('/:quizzName')
+//     .get(quizzController.getSpecificQuizzes)
 
-router.route('/:quizzName/users/:userName/comments')
-    .post(quizzController.createComment)
+// router.route('/:quizzName/users/:userName/comments')
+//     .post(quizzController.createComment)
 
-router.route('/:quizzName/users/:userName/ratings')
-    .post(quizzController.addRating)
+// router.route('/:quizzName/users/:userName/ratings')
+//     .post(quizzController.addRating)
 
 
 

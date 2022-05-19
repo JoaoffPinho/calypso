@@ -5,17 +5,17 @@ const seriesController = require("../controllers/series.controller");
 let router = express.Router();
 
  
-router.route('/')
-    .get(seriesController.getMovies)
+// router.route('/')
+//     .get(seriesController.getMovies)
 
-router.route('/:movieName')
-    .get(seriesController.getSpecificMovies)
+// router.route('/:movieName')
+//     .get(seriesController.getSpecificMovies)
 
-router.route('/:movieName/users/:userName/comments')
-    .post(seriesController.createComment)
+// router.route('/:movieName/users/:userName/comments')
+//     .post(seriesController.createComment)
 
-router.route('/:movieName/users/:userName/ratings')
-    .post(seriesController.addRating)
+// router.route('/:movieName/users/:userName/ratings')
+//     .post(seriesController.addRating)
 
 
 

@@ -4,9 +4,9 @@ const tutorialController = require("../controllers/badges.controller");
 // express router
 let router = express.Router();
 
- 
-router.route('/')
-    .get()
+
+// router.route('/')
+//     .get()
 
 
 router.all('*', function (req, res) {
