@@ -8,10 +8,12 @@ module.exports = (mongoose) => {
                 },
                 password: { 
                     type: String, 
+                    trim: true,
                     required: [true, 'Why no password?'] 
                 },
                 email: { 
-                    type: String, 
+                    type: String,
+                    unique: true, 
                     required: [true, 'Why no email?'] 
                 },
                 favMovies: [{ title: String }],
@@ -24,8 +26,11 @@ module.exports = (mongoose) => {
                     title: String, 
                     image: []}],
                 type: {
-                    type: Number, 
-                    default: 0
+                    type: String, 
+                    enum: {
+                        values: ['admin', 'advenced', 'regular'],
+                        messages: '{VALUE} is not supported'
+                    },
                 }
             },
             { timestamps: false }
